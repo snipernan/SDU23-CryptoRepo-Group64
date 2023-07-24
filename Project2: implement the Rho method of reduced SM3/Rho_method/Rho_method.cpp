@@ -3,11 +3,9 @@
 #include <cstdlib>
 #include <openssl/evp.h>
 #include <chrono>
-#include <sstream>
-#include <iomanip>
 
 // 定义 碰撞长度长度
-#define COLLISION_LEN 3
+#define COLLISION_LEN 4
 
 // 定义 SM3 哈希值长度
 #define SM3_DIGEST_LENGTH 32
@@ -28,10 +26,16 @@ int main(int argc, char** argv) {
     const int msg_len = 32; // 消息长度
     char msg[msg_len + 1]; // 用于存储消息的字符数组
     for (int i = 0; i < msg_len; i++) {
-        msg[i] = rand() % 16; // 生成随机16进制数
-        msg[i] = (msg[i] < 10) ? msg[i] + '0' : msg[i] - 10 + 'a'; // 转换成16进制字符
+        msg[i] = rand() % 26 + 'a'; // 生成随机小写字母
     }
     msg[msg_len] = '\0'; // 添加字符串结尾符号
+
+    // 生成第二个随机消息
+    char msg2[msg_len + 1];
+    for (int i = 0; i < msg_len; i++) {
+        msg2[i] = rand() % 26 + 'a'; // 生成随机小写字母
+    }
+    msg2[msg_len] = '\0'; // 添加字符串结尾符号
 
     // 定义参数
     const size_t rho_length = 4;
@@ -60,7 +64,7 @@ int main(int argc, char** argv) {
         printf("%02x", rho[0].dgst[j]);
     }
     std::cout << std::endl;
-    std::cout << "Message 2: " << msg << std::endl;
+    std::cout << "Message 2: " << msg2 << std::endl;
     std::cout << "Hash 2: ";
     for (int j = 0; j < SM3_DIGEST_LENGTH; ++j) {
         printf("%02x", rho[1].dgst[j]);
