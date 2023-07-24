@@ -7,7 +7,7 @@ OpenMP
 
 ## 使用说明
 需要在项目中包含openssl的库，如下图：
-[链接](https://www.overleaf.com/project/6402c518328b349a0fe8a425/file/64be0defe997eb37f08dbbcd)
+![链接](https://github.com/snipernan/SDU23-CryptoRepo/blob/main/Project1%3A%20implement%20the%20na%C3%AFve%20birthday%20attack%20of%20reduced%20SM3/figure/1.png)
 ![链接](https://www.overleaf.com/project/6402c518328b349a0fe8a425/file/64be0e3d3e0a60ea576c54c2)
 
 ## 运行结果
