@@ -17,3 +17,7 @@
 
 
 ## 项目列表
+| Project 编号 | 项目名 |实现方式|实现效果
+|--|--|--|--|
+| 1 | implement the naïve birthday attack of reduced SM3 |  - 使用查找表了实现生日攻击。<br>- 使用了openSSL的sm3和openMP的多线程。| 完成了48bit的碰撞搜索|
+| 2 | implement the Rho method of reduced SM3 |  - 使用Rho方法实现生日攻击。<br>- 使用了openSSL的sm3和openMP的多线程。| 完成了32bit的碰撞搜索|
