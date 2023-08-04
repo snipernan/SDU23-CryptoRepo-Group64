@@ -12,7 +12,7 @@
 
 |姓名|学号| 负责project |
 |--|--|--|
-| 王苏楠 | 202100460027 |Project 1、2、3、4、9、20、21
+| 王苏楠 | 202100460027 |Project 1、2、3、4、9、20、21、22
 |张嘉树|202100460057|Project 5、6、9、11、14、15、16、18、19
 
 
@@ -35,3 +35,4 @@
 | 19 | [forge a signature to pretend that you are Satoshi](https://github.com/snipernan/SDU23-CryptoRepo/tree/main/Project19%20forge%20a%20signature%20to%20pretend%20that%20you%20are%20SatoshiPretend%20Satoshiforge_sig.py) |  -基于存在性伪造攻击对ECDSA签名进行存在性伪造，伪装成了Satoshi的身份|成功伪造并通过了验证|
 | 20 | [ECMH PoC](https://github.com/snipernan/SDU23-CryptoRepo/tree/main/Project20%20ECMH%20PoC) |  -实现基于 ECMH 算法的哈希函数，可以进行多重集的计算对<br>-测试使用了`{a}` 和 `{a, a}` 两个多重集进行哈希，并输出其哈希值|成功实现了ECMH PoC|
 | 21 | [Schnorr Bacth](https://github.com/snipernan/SDU23-CryptoRepo/tree/main/Project21%20Schnorr%20Bacth) |  -实现批量的Schnorr 签名验证<br>-代码中包装了雅可比符号的计算<br>`int jacobi(const BIGNUM* a, const BIGNUM* n, BN_CTX* ctx)`<br>-单个签名的验证也进行了实现<br>`schnorr_sign(const std::vector<unsigned char>& msg, const BIGNUM* sk)`|300条签名批量验证用时460ms|
+| 22 | [research report on MPT](https://github.com/Dianyudengdeng/homework-group-113/tree/main/Project22) |  -通过Google学术等相关检索工具深入了解了以太坊 Merkle Patricia Tree<br>-对MPT的组成、工作机制、优点等进行了分析|完成MPT研究报告的撰写|
