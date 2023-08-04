@@ -41,6 +41,7 @@ AES加解密运行结果：
 ![项目9_1](https://github.com/snipernan/SDU23-CryptoRepo/assets/111271440/cb7d9558-f978-4723-9356-7260e331dc16)
 
 py版py加解密结果：
+py由于语言速度的原因，加密速度基本有100倍的差距
 ![项目9_1](https://github.com/snipernan/SDU23-CryptoRepo/blob/main/Project9%20AES%20%20SM4%20software%20implementation/figures/1fb6053859ce2d25db780bef587a8ec.png)
 
 
