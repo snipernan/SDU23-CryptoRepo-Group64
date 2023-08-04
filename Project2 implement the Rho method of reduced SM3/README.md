@@ -4,6 +4,7 @@
 ## 依赖库
 OpenSSL 3.1.0
 ## 运行结果
+可以很明显的看到Rho 方法比生日攻击查找表效率差不少，这里只找到了32bit的碰撞。
 ![32bit查找结果](https://github.com/snipernan/SDU23-CryptoRepo/blob/main/Project2%20implement%20the%20Rho%20method%20of%20reduced%20SM3/figure/998b55ce6c5029cbe42d8f4966e8906.png)
 
 ## 使用说明
