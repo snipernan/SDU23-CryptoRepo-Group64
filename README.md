@@ -17,6 +17,7 @@
 
 
 ## 项目列表
+（项目都做了超链接，项目内有更详细的README）
 | Project 编号 | 项目名 |实现方式|实现效果
 |--|--|--|--|
 | 1 | [implement the naïve birthday attack of reduced SM3](https://github.com/snipernan/SDU23-CryptoRepo/tree/main/Project1%20implement%20the%20na%C3%AFve%20birthday%20attack%20of%20reduced%20SM3) |  - 使用查找表了实现生日攻击。<br>- 使用了openSSL的sm3和openMP的多线程。| 完成了48bit的碰撞搜索|
