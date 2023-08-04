@@ -1,5 +1,5 @@
 ## 简介
-软件实现AES及SM4
+C++和py两种版本AES实现及SM4
 
 
 ## 项目说明
@@ -40,6 +40,9 @@ AES加解密运行结果：
 
 ![项目9_1](https://github.com/snipernan/SDU23-CryptoRepo/assets/111271440/cb7d9558-f978-4723-9356-7260e331dc16)
 
+py版py加解密结果：
+![项目9_1](https://github.com/snipernan/SDU23-CryptoRepo/blob/main/Project9%20AES%20%20SM4%20software%20implementation/figures/1fb6053859ce2d25db780bef587a8ec.png)
+
 
 SM4加解密运行结果：
 
@@ -49,5 +52,9 @@ SM4加解密运行结果：
 ## 更新日志
 2023.7.19 完成AES及SM4的软件实现
 
+2022.8.4  增加了py版本的AES实现
+
 ## 贡献
-张嘉树完成此project代码编写
+张嘉树完成此C++版本代码编写
+
+王苏楠完成py版本AES编写
